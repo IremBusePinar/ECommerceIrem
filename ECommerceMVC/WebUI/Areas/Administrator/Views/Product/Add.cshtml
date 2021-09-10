@@ -1,0 +1,55 @@
+﻿@model Product
+@{
+    ViewBag.Title = "Ürün Ekle";
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <section class="panel">
+            <header class="panel-heading">
+                @ViewBag.Title
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal" role="form" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label class="col-lg-2 col-sm-2 control-label">Ürün Adı</label>
+                        <div class="col-lg-10">
+                            <input name="ProductName" type="text" class="form-control" placeholder="kategori adı">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 col-sm-2 control-label">Fiyat</label>
+                        <div class="col-lg-10">
+                            <input name="UnitPrice" type="number" class="form-control" placeholder="açıklama">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 col-sm-2 control-label">Stok</label>
+                        <div class="col-lg-10">
+                            <input name="UnitsInStock" type="number" class="form-control" placeholder="açıklama">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 col-sm-2 control-label">Ürün Görsel</label>
+                        <div class="col-lg-10">
+                            <input name="ProductImagePath" type="file" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 col-sm-2 control-label">Kategori:</label>
+                        <div class="col-lg-10">
+
+                            @Html.DropDownListFor(x => x.SubCategoryId, (SelectList)ViewBag.SubCategories, new { @class = "form-control m-bot15" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                            <button type="submit" class="btn btn-danger">Kaydet</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Model.dll.config
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Model.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Model.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Core.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\EntityFramework.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Core.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\EntityFramework.xml
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\obj\Debug\Model.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\obj\Debug\Model.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Bogus.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Core.dll.config
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Bogus.xml

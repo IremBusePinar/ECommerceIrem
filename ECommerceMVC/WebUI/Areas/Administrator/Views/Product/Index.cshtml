@@ -1,0 +1,86 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "Ürün Listesi";
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .label-info a {
+        color: white;
+        font-weight: bold;
+    }
+
+    .productImage{
+        width:100px;
+        height:auto;
+        border-radius:20px;
+    }
+
+</style>
+
+@if (TempData["Result"] != null)
+{
+    <div class="alert alert-success">
+        <span>@TempData["Result"]</span>
+    </div>
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                <div class="row">
+                    <div class="col-lg-9">
+                        @ViewBag.Title
+                    </div>
+                    <div class="col-lg-3">
+
+                        @Html.ActionLink("Ürün Ekle", "Add", "Product", null, new { @class = "btn btn-sm btn-success pull-right" })
+                    </div>
+                </div>
+            </header>
+            <table class="table table-striped table-advance table-hover">
+                <thead>
+                    <tr>
+                        <th>Görsel</th>
+                        <th>Ürün Adı</th>
+                        <th>Fiyat</th>
+                        <th>Stok</th>
+                        <th>Kategori</th>
+                        <th><i class=" icon-edit"></i> Düzenleme</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                    @foreach (var product in Model)
+                    {
+                    <tr>
+                        <td>
+                            <img class="productImage" src="~/Content/productImages/@product.ProductImagePath" alt="" />
+                        </td>
+                        <td>@product.ProductName</td>
+                        <td>@product.UnitPrice</td>
+                        <td>@product.UnitsInStock</td>
+                        <td>@product.SubCategory.SubCategoryName</td>
+                        <td>
+                            <button class="btn btn-success btn-xs"><i class="icon-ok"></i></button>
+                            <button class="btn btn-primary btn-xs"><i class="icon-pencil"></i></button>
+                            <button class="btn btn-danger btn-xs"><i class="icon-trash "></i></button>
+                        </td>
+                    </tr>
+                    }
+
+                   
+
+
+
+
+
+
+                </tbody>
+            </table>
+        </section>
+    </div>
+</div>
+

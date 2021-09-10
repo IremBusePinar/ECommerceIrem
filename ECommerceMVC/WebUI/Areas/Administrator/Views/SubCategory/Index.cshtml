@@ -1,0 +1,102 @@
+﻿@model List<SubCategory>
+@{
+    ViewBag.Title = "Alt Kategori Listesi";
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .label-info a {
+        color: white;
+        font-weight: bold;
+    }
+</style>
+
+@if (TempData["Result"] != null)
+{
+    <div class="alert alert-success">
+        <span>@TempData["Result"]</span>
+    </div>
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                <div class="row">
+                    <div class="col-lg-9">
+                        @ViewBag.Title
+                    </div>
+                    <div class="col-lg-3">
+                        @Html.ActionLink("Kategori Listesi", "Index", "Category", null, new { @class = "btn btn-sm btn-primary pull-right" })
+
+                        @Html.ActionLink("Alt Kategori Ekle", "Add", "SubCategory", null, new { @class = "btn btn-sm btn-success pull-right" })
+                    </div>
+                </div>
+            </header>
+            <table class="table table-striped table-advance table-hover">
+                <thead>
+                    <tr>
+                        <th>Kategori Adı</th>
+                        <th>Açıklama</th>
+                        <th>Ürün Sayısı</th>
+                        <th><i class=" icon-edit"></i> Düzenleme</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (SubCategory c in Model)
+                    {
+                        <tr>
+                            <td>@c.SubCategoryName</td>
+                            <td>@c.Description</td>
+                            <td>
+
+                                @switch (c.Status)
+                                {
+                                    case Core.CoreEnum.Status.None:
+                                        <span class="label label-default label-mini">
+                                            Kayıt Dışı
+                                        </span>
+                                        break;
+                                    case Core.CoreEnum.Status.Active:
+                                        <span class="label label-success label-mini">
+                                            Aktif
+                                        </span>
+                                        break;
+                                    case Core.CoreEnum.Status.Deleted:
+                                        <span class="label label-danger label-mini">
+                                            Silinmiş
+                                        </span>
+                                        break;
+                                    case Core.CoreEnum.Status.Updated:
+                                        <span class="label label-warning label-mini">
+                                            Güncellendi
+                                        </span>
+                                        break;
+                                    default:
+                                        break;
+                                }
+
+
+
+
+
+                            </td>
+                            <td>
+                                <button class="btn btn-success btn-xs"><i class="icon-ok"></i></button>
+                                <button class="btn btn-primary btn-xs"><i class="icon-pencil"></i></button>
+                                <button class="btn btn-danger btn-xs"><i class="icon-trash "></i></button>
+                            </td>
+                        </tr>
+                    }
+
+
+
+
+
+                </tbody>
+            </table>
+        </section>
+    </div>
+</div>
+

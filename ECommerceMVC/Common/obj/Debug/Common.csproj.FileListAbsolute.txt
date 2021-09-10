@@ -1,0 +1,6 @@
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Common\bin\Debug\Common.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Common\bin\Debug\Common.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Common\obj\Debug\Common.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Common\obj\Debug\Common.pdb
