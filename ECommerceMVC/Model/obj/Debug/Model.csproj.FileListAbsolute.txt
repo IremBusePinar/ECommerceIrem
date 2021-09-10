@@ -15,3 +15,20 @@ D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Mode
 D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Bogus.dll
 D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Core.dll.config
 D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\9-Project\08.09\ECommerceMVC\Model\bin\Debug\Bogus.xml
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Model.dll.config
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Model.dll
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Model.pdb
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Bogus.dll
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Core.dll
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\EntityFramework.dll
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Core.pdb
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Core.dll.config
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\Bogus.xml
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\EntityFramework.xml
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\obj\Debug\Model.dll
+C:\Users\alica\OneDrive\Masaüstü\ECİ\ECommerceMVC\Model\obj\Debug\Model.pdb

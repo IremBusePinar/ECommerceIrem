@@ -31,5 +31,12 @@ namespace WebUI.Areas.Administrator.Controllers
             productService.Add(newProduct);
             return RedirectToAction("Index");
         }
+
+        public ActionResult Delete()
+        {
+            ViewBag.SubCategories = new SelectList(subCategoryService.GetList(), "ID", "SubCategoryName");
+            return View();
+
+        }
     }
 }

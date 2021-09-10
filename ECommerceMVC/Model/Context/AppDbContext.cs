@@ -13,7 +13,7 @@ namespace Model.Context
     {
         public AppDbContext()
         {
-            Database.Connection.ConnectionString = "server=.;database=ECommerceDB;pwd=123;uid=sa;";
+            Database.Connection.ConnectionString = "server=XXBOMPC;database=ECommerceDB;integrated security=true;";
         }
 
         public DbSet<AppUser> AppUsers { get; set; }

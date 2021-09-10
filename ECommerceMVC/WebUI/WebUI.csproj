@@ -1708,6 +1708,7 @@
     <Compile Include="Areas\Administrator\Controllers\HomeController.cs" />
     <Compile Include="Areas\Administrator\Controllers\ProductController.cs" />
     <Compile Include="Areas\Administrator\Controllers\SubCategoryController.cs" />
+    <Compile Include="Areas\Administrator\Controllers\UserController.cs" />
     <Compile Include="Areas\Administrator\Data\CategoryVM.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1879,6 +1880,7 @@
     <Content Include="Areas\Administrator\Views\SubCategory\Add.cshtml" />
     <Content Include="Areas\Administrator\Views\Product\Index.cshtml" />
     <Content Include="Areas\Administrator\Views\Product\Add.cshtml" />
+    <Content Include="Areas\Administrator\Views\Product\Delete.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -1892,6 +1894,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Administrator\Views\User\" />
     <Folder Include="Content\assets\jquery-file-upload\server\node\public\files\thumbnail\" />
     <Folder Include="Content\assets\jquery-file-upload\server\node\tmp\" />
     <Folder Include="Content\assets\jquery-file-upload\server\php\files\thumbnail\" />
